@@ -7,10 +7,10 @@ static char sccsid[] = "@(#)strcasecmp.c    8.1 (Berkeley) 6/4/93";
 typedef unsigned char u_char;
 
 /*
- *  * This array is designed for mapping upper and lower case letter
- *   * together for a case independent comparison.  The mappings are
- *    * based upon ascii character sequences.
- *     */
+ * This array is designed for mapping upper and lower case letter
+ * together for a case independent comparison.  The mappings are
+ * based upon ascii character sequences.
+ */
 static const u_char charmap[] = {
     '\000', '\001', '\002', '\003', '\004', '\005', '\006', '\007',
     '\010', '\011', '\012', '\013', '\014', '\015', '\016', '\017',
