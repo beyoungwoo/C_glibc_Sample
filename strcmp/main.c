@@ -1,54 +1,54 @@
 #include "FUNC.h"
 
-void gstrcmp_test1();
-void gstrcmp_test2();
+void strcmp_test1();
+void strcmp_test2();
 
 int main()
 {
-    gstrcmp_test1();
-    gstrcmp_test2();
+    strcmp_test1();
+    strcmp_test2();
     return 0;
 }
 
-void gstrcmp_test1()
+void strcmp_test1()
 {
     int ret = 0;
     char *tmp = "2HOUR";
     printf("--------- [TEST1] ---------\n");
 
     printf("\n[strcmp]\n");
-    ret = gstrcmp(tmp, "1HOUR");
+    ret = strcmp(tmp, "1HOUR");
     printf("not matched ret=%d\n", ret);
-    ret = gstrcmp(tmp, "2HOUR");
+    ret = strcmp(tmp, "2HOUR");
     printf("    matched ret=%d\n", ret);
-    ret = gstrcmp(tmp, "3HOUR");
+    ret = strcmp(tmp, "3HOUR");
     printf("not matched ret=%d\n", ret);
 
     printf("\n[strcasecmp]\n");
-    ret = gstrcasecmp(tmp, "2hour");
+    ret = strcasecmp(tmp, "2hour");
     printf("matched ret=%d\n", ret);
-    ret = gstrcasecmp(tmp, "2HouR");
+    ret = strcasecmp(tmp, "2HouR");
     printf("matched ret=%d\n", ret);
-    ret = gstrcasecmp(tmp, "2hOUr");
+    ret = strcasecmp(tmp, "2hOUr");
     printf("matched ret=%d\n", ret);
 
     tmp = "1";
     printf("\n[strncmp]\n");
-    ret = gstrncmp(tmp, "1HOUR", 1);
+    ret = strncmp(tmp, "1HOUR", 1);
     printf("    matched ret=%d\n", ret);
-    ret = gstrncmp(tmp, "1HOUR", 2);
+    ret = strncmp(tmp, "1HOUR", 2);
     printf("not matched ret=%d\n", ret);
 
     printf("\n[strncasecmp]\n");
-    ret = gstrncasecmp(tmp, "1hour", 1);
+    ret = strncasecmp(tmp, "1hour", 1);
     printf("    matched ret=%d\n", ret);
-    ret = gstrncasecmp(tmp, "1hour", 2);
+    ret = strncasecmp(tmp, "1hour", 2);
     printf("not matched ret=%d\n", ret);
 
     return;
 }
 
-void gstrcmp_test2()
+void strcmp_test2()
 {
     char *ret;
     char *buf = "http://algospot.com/%2a";

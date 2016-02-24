@@ -46,7 +46,7 @@ static const u_char charmap[] = {
     '\370', '\371', '\372', '\373', '\374', '\375', '\376', '\377',
 };
 
-int gstrcasecmp(const char *s1, const char *s2)
+int strcasecmp(const char *s1, const char *s2)
 {
     register const u_char *cm = charmap,
              *us1 = (const u_char *)s1,
@@ -58,7 +58,7 @@ int gstrcasecmp(const char *s1, const char *s2)
     return (cm[*us1] - cm[*--us2]);
 }
 
-int gstrncasecmp(const char *s1, const char *s2, register size_t n)
+int strncasecmp(const char *s1, const char *s2, register size_t n)
 {
     if (n != 0) {
         register const u_char *cm = charmap,
@@ -75,7 +75,7 @@ int gstrncasecmp(const char *s1, const char *s2, register size_t n)
     return (0);
 }
 
-int gstrcmp (const char *p1, const char *p2)
+int strcmp (const char *p1, const char *p2)
 {
     const unsigned char *s1 = (const unsigned char *) p1;
     const unsigned char *s2 = (const unsigned char *) p2;
@@ -93,7 +93,7 @@ int gstrcmp (const char *p1, const char *p2)
     return c1 - c2;
 }
 
-int gstrncmp (const char *s1, const char *s2, size_t n)
+int strncmp (const char *s1, const char *s2, size_t n)
 {
   unsigned char c1 = '\0';
   unsigned char c2 = '\0';
