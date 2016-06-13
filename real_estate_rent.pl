@@ -23,14 +23,13 @@ my ($offset, $updates) = 0;
 # The commands that this bot supports.
 my $pic_id; # file_id of the last sent picture
 
-sub list() {
+sub get_apartment_rent() {
     my $loc = shift @_;
     my $ymd = shift @_;
 
     my $ua = LWP::UserAgent->new;
     $ua->timeout(10);
     $ua->env_proxy;
-
 
     if (! defined $loc) {
         $loc = 11440; 
@@ -60,7 +59,6 @@ sub list() {
     my $html = HTML::TagParser->new($response->decoded_content);
 
     my @money_list = $html->getElementsByTagName("거래금액");
-
     my @area_list = $html->getElementsByTagName("법정동");
     my @apt_list = $html->getElementsByTagName("아파트");
     my @size_list = $html->getElementsByTagName("전용면적");
@@ -78,7 +76,6 @@ sub list() {
         my $size = $size_list[$i]->innerText;
         my $month = $month_list[$i]->innerText;
         my $day = $day_list[$i]->innerText;
-
 
         $result .= sprintf ("%s, %s %s, %s (%s/%s)\n", $money, $area, $apt, $size, $month, $day);
 
@@ -100,7 +97,7 @@ my $commands = {
         sprintf "Hello %s, I am %s! How are you?", shift->{from}{username}, $me->{result}{username}
     },
     "real"    => sub {
-        list();
+        get_apartment_rent();
     },
     # Example showing how to send multiple lines in a single message.
     "knock"    => sub {
