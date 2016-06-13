@@ -23,9 +23,13 @@ my ($offset, $updates) = 0;
 # The commands that this bot supports.
 my $pic_id; # file_id of the last sent picture
 
-sub get_apartment_rent() {
+sub get_apartment_rent {
+    shift @_; # command pass
     my $loc = shift @_;
     my $ymd = shift @_;
+
+    print "$loc\n" if defined $loc;
+    print "$ymd\n" if defined $ymd;
 
     my $ua = LWP::UserAgent->new;
     $ua->timeout(10);
@@ -97,7 +101,7 @@ my $commands = {
         sprintf "Hello %s, I am %s! How are you?", shift->{from}{username}, $me->{result}{username}
     },
     "real"    => sub {
-        get_apartment_rent();
+        get_apartment_rent(@_);
     },
     # Example showing how to send multiple lines in a single message.
     "knock"    => sub {
