@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 use utf8;
+use POSIX qw(strncmp);
 
 use WWW::Telegram::BotAPI;
 
@@ -27,9 +28,13 @@ sub get_apartment_rent {
     shift @_; # command pass
     my $loc = shift @_;
     my $ymd = shift @_;
+    my $input_area = shift @_;
 
-    print "$loc\n" if defined $loc;
-    print "$ymd\n" if defined $ymd;
+    #print "$loc\n" if defined $loc;
+    #print "$ymd\n" if defined $ymd;
+    if (defined $input_area) {
+        $input_area .= "동";
+    }
 
     my $ua = LWP::UserAgent->new;
     $ua->timeout(10);
@@ -74,8 +79,12 @@ sub get_apartment_rent {
 
     for (my $i=0; $i < scalar @money_list; $i++) {
 
-        my $money = $money_list[$i]->innerText;
         my $area = $area_list[$i]->innerText;
+        if (defined $input_area) {
+            next if ($input_area ne $area); 
+        }
+
+        my $money = $money_list[$i]->innerText;
         my $apt = $apt_list[$i]->innerText;
         my $size = $size_list[$i]->innerText;
         my $month = $month_list[$i]->innerText;
@@ -92,6 +101,12 @@ sub get_apartment_rent {
     return $result;
 }
 
+sub help() {
+    return "사용법: \
+    ex) /real 11410 201512";
+
+}
+
 my $commands = {
     "start"    => "Hello! Try: /whoami - /say - /lastphoto - /keyboard - /knock",
     # Example demonstrating the use of parameters in a command.
@@ -102,6 +117,12 @@ my $commands = {
     },
     "real"    => sub {
         get_apartment_rent(@_);
+    },
+    "?"    => sub {
+        help();
+    },
+    "help"    => sub {
+        help();
     },
     # Example showing how to send multiple lines in a single message.
     "knock"    => sub {
