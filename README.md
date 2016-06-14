@@ -1,4 +1,4 @@
-# realestate_rent
+# real_estate_rent
 
 파이썬으로 구현된 소스 참고하여 따라함
 * https://github.com/dspshin/aptrent-bot
