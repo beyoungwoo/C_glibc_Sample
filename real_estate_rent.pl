@@ -30,8 +30,7 @@ sub get_apartment_rent {
     my $ymd = shift @_;
     my $input_area = shift @_;
 
-    #print "$loc\n" if defined $loc;
-    #print "$ymd\n" if defined $ymd;
+    #TODO strncmp for perl..
     if (defined $input_area) {
         $input_area .= "동";
     }
@@ -47,18 +46,12 @@ sub get_apartment_rent {
         $ymd = 201512; 
     }
 
-    # TODO : change to snprintf
     my $url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTrade';
-    my $req_url .= $url;
-    $req_url .= '?LAWD_CD=';
-    $req_url .= $loc;
-    $req_url .= '&DEAL_YMD=';
-    $req_url .= $ymd;
-    $req_url .= '&serviceKey=';
-
     my $key = 'jxHYst4sbGXo39M2uKPj%2B1zmjDPiJEzt%2BkLXpoLiKMTua6fsl5PWikGlgIuNthm1WXm2WVtMTdwSoIjuH5fR0g%3D%3D';
-    $req_url .= $key;
 
+    my $req_url = sprintf ("%s?LAWD_CD=%s&DEAL_YMD=%s&serviceKey=%s",
+        $url, $loc, $ymd, $key);
+    
     my $response = $ua->get($req_url);
 
     if (! $response->is_success) {
