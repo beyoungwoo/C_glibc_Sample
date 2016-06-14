@@ -10,9 +10,9 @@ use WWW::Telegram::BotAPI;
 use LWP::UserAgent;
 use HTML::TagParser;
 
-my $url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTrade';
-my $key = 'jxHYst4sbGXo39M2uKPj%2B1zmjDPiJEzt%2BkLXpoLiKMTua6fsl5PWikGlgIuNthm1WXm2WVtMTdwSoIjuH5fR0g%3D%3D';
-my $TOKEN = '195271277:AAEXxDw6kCd66yXe5enS8Qk4KTLk3XpcJqI'; 
+my $TOKEN = 'my_token';  # BotFather
+my $url = 'apt_url' # data.go.kr
+my $key = 'api_key' # data.go.kr
 my $api = WWW::Telegram::BotAPI->new (
     token => $TOKEN
 ) or die "I can't connect";
