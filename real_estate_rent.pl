@@ -10,6 +10,8 @@ use WWW::Telegram::BotAPI;
 use LWP::UserAgent;
 use HTML::TagParser;
 
+my $url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTrade';
+my $key = 'jxHYst4sbGXo39M2uKPj%2B1zmjDPiJEzt%2BkLXpoLiKMTua6fsl5PWikGlgIuNthm1WXm2WVtMTdwSoIjuH5fR0g%3D%3D';
 my $TOKEN = '195271277:AAEXxDw6kCd66yXe5enS8Qk4KTLk3XpcJqI'; 
 my $api = WWW::Telegram::BotAPI->new (
     token => $TOKEN
@@ -24,8 +26,88 @@ my ($offset, $updates) = 0;
 # The commands that this bot supports.
 my $pic_id; # file_id of the last sent picture
 
+sub get_taeyoung_rent {
+    my $cmd = shift @_;
+    my $year = shift @_;
+
+    my $ua = LWP::UserAgent->new;
+    $ua->timeout(10);
+    $ua->env_proxy;
+
+    my $loc = 11440; 
+
+    if (! defined $year) {
+        $year = 2016; 
+    }
+
+    my $check_year;
+    my $result = "";
+    for (my $i = 1; $i < 13; $i++) {
+        if ($i < 10) {
+            $check_year = sprintf ("%d0%d", $year, $i);
+        } else {
+            $check_year = sprintf ("%d%d", $year, $i);
+        }
+
+
+        print "$check_year\n";
+        my $req_url = sprintf ("%s?LAWD_CD=%s&DEAL_YMD=%s&serviceKey=%s",
+            $url, $loc, $check_year, $key);
+
+        my $response = $ua->get($req_url);
+
+        if (! $response->is_success) {
+            die $response->status_line;
+        }
+
+        my $html = HTML::TagParser->new($response->decoded_content);
+
+        my @money_list = $html->getElementsByTagName("거래금액");
+        my @area_list = $html->getElementsByTagName("법정동");
+        my @apt_list = $html->getElementsByTagName("아파트");
+        my @size_list = $html->getElementsByTagName("전용면적");
+        my @month_list = $html->getElementsByTagName("월");
+        my @day_list = $html->getElementsByTagName("일");
+
+        my $len = 0;
+
+        for (my $i=0; $i < scalar @money_list; $i++) {
+
+            my $area = $area_list[$i]->innerText;
+            print "area-> $area";
+            next if ("대흥동" ne $area); 
+            my $apt = $apt_list[$i]->innerText;
+            print "apt-> $apt";
+            next if ("마포태영" ne $apt); 
+
+            my $money = $money_list[$i]->innerText;
+            my $size = $size_list[$i]->innerText;
+            my $month = $month_list[$i]->innerText;
+            my $day = $day_list[$i]->innerText;
+
+            $result .= sprintf ("%s, %s %s, %s (%s/%s)\n", $money, $area, $apt, $size, $month, $day);
+            print "$result\n";
+
+            $len = length $result;
+            if ($len > 4000) {
+                last;
+            }
+        }
+    }
+
+    return $result;
+}
+
+sub help() {
+    return "사용법: \
+    ex) /real 11410 201512";
+
+}
+
+
+
 sub get_apartment_rent {
-    shift @_; # command pass
+    my $cmd = shift @_;
     my $loc = shift @_;
     my $ymd = shift @_;
     my $input_area = shift @_;
@@ -46,12 +128,10 @@ sub get_apartment_rent {
         $ymd = 201512; 
     }
 
-    my $url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTrade';
-    my $key = 'jxHYst4sbGXo39M2uKPj%2B1zmjDPiJEzt%2BkLXpoLiKMTua6fsl5PWikGlgIuNthm1WXm2WVtMTdwSoIjuH5fR0g%3D%3D';
 
     my $req_url = sprintf ("%s?LAWD_CD=%s&DEAL_YMD=%s&serviceKey=%s",
         $url, $loc, $ymd, $key);
-    
+
     my $response = $ua->get($req_url);
 
     if (! $response->is_success) {
@@ -110,6 +190,9 @@ my $commands = {
     },
     "real"    => sub {
         get_apartment_rent(@_);
+    },
+    "y1"    => sub {
+        get_taeyoung_rent(@_);
     },
     "?"    => sub {
         help();
