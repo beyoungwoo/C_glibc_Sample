@@ -146,6 +146,7 @@ sub get_apartment_rent {
     my @size_list = $html->getElementsByTagName("전용면적");
     my @month_list = $html->getElementsByTagName("월");
     my @day_list = $html->getElementsByTagName("일");
+    my @floor_list = $html->getElementsByTagName("층");
 
     my $result = "";
     my $len = 0;
@@ -162,8 +163,9 @@ sub get_apartment_rent {
         my $size = $size_list[$i]->innerText;
         my $month = $month_list[$i]->innerText;
         my $day = $day_list[$i]->innerText;
+        my $floor = $floor_list[$i]->innerText;
 
-        $result .= sprintf ("%s, %s %s, %s (%s/%s)\n", $money, $area, $apt, $size, $month, $day);
+        $result .= sprintf ("%s, %s %s(%s층), %s (%s/%s)\n", $money, $area, $apt, $floor, $size, $month, $day);
 
         $len = length $result;
         if ($len > 3000) {
