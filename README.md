@@ -12,4 +12,5 @@
 요청하는 url 정보는 공공데이터 포털의 문서 참고
 * 실거래 데이터 OpenAPI 활용가이드_v3.0.docx
 
-Telegram의 토큰은 botfater이용
+Telegram의 토큰
+* BotFather
