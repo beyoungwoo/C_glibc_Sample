@@ -4,15 +4,18 @@ use strict;
 use warnings;
 use utf8;
 use POSIX qw(strncmp);
+use Encode;
 
 use WWW::Telegram::BotAPI;
 
 use LWP::UserAgent;
 use HTML::TagParser;
 
-my $TOKEN = 'my_token';  # BotFather
-my $url = 'apt_url' # data.go.kr
-my $key = 'api_key' # data.go.kr
+use DBD::mysql;
+
+my $TOKEN = 'my_token';
+my $key = 'my_key';
+my $url = 'my_url';
 my $api = WWW::Telegram::BotAPI->new (
     token => $TOKEN
 ) or die "I can't connect";
@@ -26,8 +29,46 @@ my ($offset, $updates) = 0;
 # The commands that this bot supports.
 my $pic_id; # file_id of the last sent picture
 
+my $database='my_db';
+my $host='127.0.0.1';
+my $port=3306;
+
+my $dsn = "DBI:mysql:database=$database;host=$host;port=$port";
+
+my $user='my_db_user';
+my $password='my_db_passwd';
+my $dbh = DBI->connect($dsn, $user, $password);
+
+
+my @databases = DBI->data_sources("mysql",
+        {"host" => $host, "port" => $port, "user" => $user, password => $password});
+
+sub get_local_code {
+    my $cmd = shift @_;
+    my $my_district = shift @_;
+
+    if (! defined $my_district) {
+        return "usage : /loc 서구";
+    }
+
+    my $query = sprintf ("SELECT * FROM LOCAL_CODE WHERE KOR_DISTRICT LIKE \"%%%s\";", $my_district); 
+    my $sth = $dbh->prepare($query);
+    $sth->execute;
+
+    my $loc_result = "";
+
+    while (my $ref = $sth->fetchrow_hashref()) {
+        $loc_result .= sprintf ("%s %s %s\n", $ref->{'LOCAL_CODE'}, $ref->{'KOR_CITY'}, $ref->{'KOR_DISTRICT'});
+    }
+    print "$loc_result\n";
+    return decode("UTF-8", $loc_result);
+}
+
 sub get_taeyoung_rent {
     my $cmd = shift @_;
+    my $my_district = shift @_;
+    my $my_apt = shift @_;
+    my $my_size = shift @_;
     my $year = shift @_;
 
     my $ua = LWP::UserAgent->new;
@@ -39,9 +80,13 @@ sub get_taeyoung_rent {
     if (! defined $year) {
         $year = 2016; 
     }
+    if (! defined $my_district || ! defined $my_apt || ! defined $my_size) {
+        return "usage : /y1 동 아파트 면적 연도";
+    }
 
     my $check_year;
     my $result = "";
+    $result .= sprintf ("%s %s %sm²\n", $my_district, $my_apt, $my_size);
     for (my $i = 1; $i < 13; $i++) {
         if ($i < 10) {
             $check_year = sprintf ("%d0%d", $year, $i);
@@ -62,8 +107,9 @@ sub get_taeyoung_rent {
 
         my $html = HTML::TagParser->new($response->decoded_content);
 
-        my @money_list = $html->getElementsByTagName("거래금액");
-        my @area_list = $html->getElementsByTagName("법정동");
+        my @deposit_list = $html->getElementsByTagName("보증금액");
+        my @fee_list = $html->getElementsByTagName("월세금액");
+        my @district_list = $html->getElementsByTagName("법정동");
         my @apt_list = $html->getElementsByTagName("아파트");
         my @size_list = $html->getElementsByTagName("전용면적");
         my @month_list = $html->getElementsByTagName("월");
@@ -72,23 +118,31 @@ sub get_taeyoung_rent {
 
         my $len = 0;
 
-        for (my $i=0; $i < scalar @money_list; $i++) {
+        for (my $i=0; $i < scalar @fee_list; $i++) {
 
-            my $area = $area_list[$i]->innerText;
-            print "area-> $area";
-            next if ("대흥동" ne $area); 
+            my $district = $district_list[$i]->innerText;
+            #print "district-> $district";
+            next if ($my_district ne $district); 
             my $apt = $apt_list[$i]->innerText;
-            print "apt-> $apt";
-            next if ("마포태영" ne $apt); 
+            #print "apt-> $apt";
+            next if ($my_apt ne $apt); 
 
-            my $money = $money_list[$i]->innerText;
             my $size = $size_list[$i]->innerText;
+            next if ($my_size ne $size); 
+
+            my $deposit = $deposit_list[$i]->innerText;
+            my $fee = $fee_list[$i]->innerText;
             my $month = $month_list[$i]->innerText;
             my $day = $day_list[$i]->innerText;
             my $floor = $floor_list[$i]->innerText;
 
-            $result .= sprintf ("%s, %s %s(%s), %s (%s/%s)\n", $money, $area, $apt, $floor, $size, $month, $day);
-            print "$result\n";
+            if ($fee == 0) {
+                $result .= sprintf ("전세:   %s, %s층 %s/%s\n", $deposit, $floor, $month, $day);
+            }
+            else {
+                $result .= sprintf ("반전세: %s(%s), %s층 %s/%s\n", $deposit, $fee, $floor, $month, $day);
+            }
+            #print "$result\n";
 
             $len = length $result;
             if ($len > 4000) {
@@ -112,12 +166,12 @@ sub get_apartment_rent {
     my $cmd = shift @_;
     my $loc = shift @_;
     my $ymd = shift @_;
-    my $input_area = shift @_;
+    my $input_district = shift @_;
 
-    #TODO strncmp for perl..
-    if (defined $input_area) {
-        $input_area .= "동";
-    }
+#    #TODO strncmp for perl..
+#    if (defined $input_district) {
+#        $input_district .= "동";
+#    }
 
     my $ua = LWP::UserAgent->new;
     $ua->timeout(10);
@@ -140,10 +194,12 @@ sub get_apartment_rent {
         die $response->status_line;
     }
 
+    print "$response->decoded_content\n";
     my $html = HTML::TagParser->new($response->decoded_content);
 
-    my @money_list = $html->getElementsByTagName("거래금액");
-    my @area_list = $html->getElementsByTagName("법정동");
+    my @deposit_list = $html->getElementsByTagName("보증금액");
+    my @fee_list = $html->getElementsByTagName("월세금액");
+    my @district_list = $html->getElementsByTagName("법정동");
     my @apt_list = $html->getElementsByTagName("아파트");
     my @size_list = $html->getElementsByTagName("전용면적");
     my @month_list = $html->getElementsByTagName("월");
@@ -153,21 +209,22 @@ sub get_apartment_rent {
     my $result = "";
     my $len = 0;
 
-    for (my $i=0; $i < scalar @money_list; $i++) {
+    for (my $i=0; $i < scalar @fee_list; $i++) {
 
-        my $area = $area_list[$i]->innerText;
-        if (defined $input_area) {
-            next if ($input_area ne $area); 
+        my $district = $district_list[$i]->innerText;
+        if (defined $input_district) {
+            next if ($input_district ne $district); 
         }
 
-        my $money = $money_list[$i]->innerText;
+        my $deposit = $deposit_list[$i]->innerText;
+        my $fee = $fee_list[$i]->innerText;
         my $apt = $apt_list[$i]->innerText;
         my $size = $size_list[$i]->innerText;
         my $month = $month_list[$i]->innerText;
         my $day = $day_list[$i]->innerText;
         my $floor = $floor_list[$i]->innerText;
 
-        $result .= sprintf ("%s, %s %s(%s층), %s (%s/%s)\n", $money, $area, $apt, $floor, $size, $month, $day);
+        $result .= sprintf ("%s(%s), %s %s(%s층), %s (%s/%s)\n", $deposit, $fee, $district, $apt, $floor, $size, $month, $day);
 
         $len = length $result;
         if ($len > 3000) {
@@ -192,11 +249,14 @@ my $commands = {
     "whoami"   => sub {
         sprintf "Hello %s, I am %s! How are you?", shift->{from}{username}, $me->{result}{username}
     },
-    "real"    => sub {
+    "rent"    => sub {
         get_apartment_rent(@_);
     },
     "y1"    => sub {
         get_taeyoung_rent(@_);
+    },
+    "loc"    => sub {
+        get_local_code(@_);
     },
     "?"    => sub {
         help();
