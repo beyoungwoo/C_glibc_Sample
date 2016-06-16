@@ -3,7 +3,6 @@
 use strict;
 use warnings;
 use utf8;
-use POSIX qw(strncmp);
 use Encode;
 
 use WWW::Telegram::BotAPI;
@@ -165,13 +164,8 @@ sub help() {
 sub get_apartment_rent {
     my $cmd = shift @_;
     my $loc = shift @_;
-    my $ymd = shift @_;
     my $input_district = shift @_;
-
-#    #TODO strncmp for perl..
-#    if (defined $input_district) {
-#        $input_district .= "동";
-#    }
+    my $ymd = shift @_;
 
     my $ua = LWP::UserAgent->new;
     $ua->timeout(10);
@@ -183,7 +177,6 @@ sub get_apartment_rent {
     if (! defined $ymd) {
         $ymd = 201512; 
     }
-
 
     my $req_url = sprintf ("%s?LAWD_CD=%s&DEAL_YMD=%s&serviceKey=%s",
         $url, $loc, $ymd, $key);
@@ -213,7 +206,7 @@ sub get_apartment_rent {
 
         my $district = $district_list[$i]->innerText;
         if (defined $input_district) {
-            next if ($input_district ne $district); 
+            next if ($district !~ /^$input_district/);
         }
 
         my $deposit = $deposit_list[$i]->innerText;
@@ -237,7 +230,7 @@ sub get_apartment_rent {
 
 sub help() {
     return "사용법: \
-    ex) /real 11410 201512";
+    ex) /rent 11410 대흥201512";
 
 }
 
