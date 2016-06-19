@@ -117,23 +117,23 @@ sub get_taeyoung_rent {
 
         my $len = 0;
 
-        for (my $i=0; $i < scalar @fee_list; $i++) {
+        for (my $j=0; $j < scalar @fee_list; $j++) {
 
-            my $district = $district_list[$i]->innerText;
+            my $district = $district_list[$j]->innerText;
             #print "district-> $district";
             next if ($my_district ne $district); 
-            my $apt = $apt_list[$i]->innerText;
+            my $apt = $apt_list[$j]->innerText;
             #print "apt-> $apt";
             next if ($my_apt ne $apt); 
 
-            my $size = $size_list[$i]->innerText;
+            my $size = $size_list[$j]->innerText;
             next if ($my_size ne $size); 
 
-            my $deposit = $deposit_list[$i]->innerText;
-            my $fee = $fee_list[$i]->innerText;
-            my $month = $month_list[$i]->innerText;
-            my $day = $day_list[$i]->innerText;
-            my $floor = $floor_list[$i]->innerText;
+            my $deposit = $deposit_list[$j]->innerText;
+            my $fee = $fee_list[$j]->innerText;
+            my $month = $month_list[$j]->innerText;
+            my $day = $day_list[$j]->innerText;
+            my $floor = $floor_list[$j]->innerText;
 
             if ($fee == 0) {
                 $result .= sprintf ("전세:   %s, %s층 %s/%s\n", $deposit, $floor, $month, $day);
