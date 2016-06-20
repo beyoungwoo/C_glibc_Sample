@@ -27,7 +27,7 @@ if (defined $ARGV[1]) {
 if (defined $ARGV[2]) { 
     $ymd = $ARGV[2]; }
 else {
-    $ymd = 201512;
+    $ymd = 201605;
 }
 
 # TODO : change to snprintf
@@ -58,6 +58,7 @@ my @apt_list = $html->getElementsByTagName("아파트");
 my @size_list = $html->getElementsByTagName("전용면적");
 my @month_list = $html->getElementsByTagName("월");
 my @day_list = $html->getElementsByTagName("일");
+my @bun_list = $html->getElementsByTagName("지번");
 
 my $result = "";
 
@@ -66,12 +67,16 @@ for (my $i=0; $i < scalar @money_list; $i++) {
 	my $deposit = $deposit_list[$i]->innerText;
 	my $money = $money_list[$i]->innerText;
 	my $area = $area_list[$i]->innerText;
-	my $apt = $apt_list[$i]->innerText;
+    next if ($area !~ "상수");
+    my $apt = $apt_list[$i]->innerText;
+    #   next if ($apt ne "마포태영");
 	my $size = $size_list[$i]->innerText;
+    #next if ($size ne "59.4");
 	my $month = $month_list[$i]->innerText;
 	my $day = $day_list[$i]->innerText;
+	my $bun = $bun_list[$i]->innerText;
 
-	$result .= sprintf ("%s(%s), %s %s, %s (%s/%s)\n", $deposit, $money, $area, $apt, $size, $month, $day);
+	$result .= sprintf ("%s(%s), %s %s, %s (%s/%s) %s\n", $deposit, $money, $area, $apt, $size, $month, $day, $bun);
 }
 print "$result\n";
 
