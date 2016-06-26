@@ -221,7 +221,13 @@ sub get_apartment_rent {
 
         $len = length $result;
         if ($len > 3000) {
-            last;
+                $api->sendMessage ({
+                        chat_id => $current_chat_id,
+                        text => $result,
+                    });
+
+                undef $result;
+            }
         }
     }
 
