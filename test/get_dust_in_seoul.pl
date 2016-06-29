@@ -4,6 +4,7 @@
 use strict;
 use warnings;
 use utf8;
+binmode STDOUT, ":utf8";
 
 use LWP::UserAgent;
 use HTML::TagParser;
@@ -19,15 +20,20 @@ my $response = $ua->get($url);
 if (! $response->is_success) {
     die $response->status_line;
 }
-print $response->decoded_content; 
+#print $response->decoded_content; 
 
-my $html = HTML::TagParser->new($response->decoded_content);
+use XML::LibXML;
 
-my $elem = $html->getElementsByTagName("CAISTEP");
-my $current = $elem->innerText;
-print "$current\n";
+my $parser = XML::LibXML->new();
+my $doc = $parser->parse_string($response->decoded_content); 
+my $root = $doc->documentElement();
 
-#my $elem = $html->getElementsByTagName("ALARM_CNDT");
+my @elem = $root->getElementsByTagName("CAISTEP");
+my $step = $elem[0]->firstChild->nodeValue;
+
+my @ch = $root->getElementsByTagName("ALARM_CNDT");
+my $val = $ch[0]->firstChild->nodeValue;
+print "$step, $val\n";
 
 =comment
 use HTML::TagParser;
