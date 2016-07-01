@@ -38,7 +38,7 @@ $req_url .= '&DEAL_YMD=';
 $req_url .= $ymd; 
 $req_url .= '&serviceKey=';
 
-my $key = 'jxHYst4sbGXo39M2uKPj%2B1zmjDPiJEzt%2BkLXpoLiKMTua6fsl5PWikGlgIuNthm1WXm2WVtMTdwSoIjuH5fR0g%3D%3D';
+my $key = 'MY_KEY';
 $req_url .= $key;
 
 my $response = $ua->get($req_url);
