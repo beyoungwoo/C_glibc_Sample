@@ -6,10 +6,8 @@ use utf8;
 use Encode;
 
 use WWW::Telegram::BotAPI;
-
 use LWP::UserAgent;
 use HTML::TagParser;
-
 use DBD::mysql;
 
 my $TOKEN = 'my_token';
@@ -38,7 +36,6 @@ my $user='my_db_user';
 my $password='my_db_passwd';
 my $dbh = DBI->connect($dsn, $user, $password);
 
-
 my @databases = DBI->data_sources("mysql",
         {"host" => $host, "port" => $port, "user" => $user, password => $password});
 
@@ -50,14 +47,16 @@ sub get_local_code {
         return "usage : /loc 서구";
     }
 
-    my $query = sprintf ("SELECT * FROM LOCAL_CODE WHERE KOR_DISTRICT LIKE \"%%%s\";", $my_district); 
+    my $query = sprintf ("SELECT * FROM LOCAL_CODE WHERE KOR_DISTRICT LIKE \"%%%s\";", 
+        $my_district); 
     my $sth = $dbh->prepare($query);
     $sth->execute;
 
     my $loc_result = "";
 
     while (my $ref = $sth->fetchrow_hashref()) {
-        $loc_result .= sprintf ("%s %s %s\n", $ref->{'LOCAL_CODE'}, $ref->{'KOR_CITY'}, $ref->{'KOR_DISTRICT'});
+        $loc_result .= sprintf ("%s %s %s\n", 
+            $ref->{'LOCAL_CODE'}, $ref->{'KOR_CITY'}, $ref->{'KOR_DISTRICT'});
     }
     print "$loc_result\n";
     return decode("UTF-8", $loc_result);
@@ -92,7 +91,6 @@ sub get_taeyoung_rent {
         } else {
             $check_year = sprintf ("%d%d", $year, $i);
         }
-
 
         print "$check_year\n";
         my $req_url = sprintf ("%s?LAWD_CD=%s&DEAL_YMD=%s&serviceKey=%s",
@@ -136,10 +134,12 @@ sub get_taeyoung_rent {
             my $floor = $floor_list[$j]->innerText;
 
             if ($fee == 0) {
-                $result .= sprintf ("전세:   %s, %s층 %s/%s\n", $deposit, $floor, $month, $day);
+                $result .= sprintf ("전세:   %s, %s층 %s/%s\n", 
+                    $deposit, $floor, $month, $day);
             }
             else {
-                $result .= sprintf ("반전세: %s(%s), %s층 %s/%s\n", $deposit, $fee, $floor, $month, $day);
+                $result .= sprintf ("반전세: %s(%s), %s층 %s/%s\n", 
+                    $deposit, $fee, $floor, $month, $day);
             }
             #print "$result\n";
 
@@ -152,14 +152,6 @@ sub get_taeyoung_rent {
 
     return $result;
 }
-
-sub help() {
-    return "사용법: \
-    ex) /real 11410 201512";
-
-}
-
-
 
 sub get_apartment_rent {
     my $cmd = shift @_;
@@ -217,7 +209,8 @@ sub get_apartment_rent {
         my $day = $day_list[$i]->innerText;
         my $floor = $floor_list[$i]->innerText;
 
-        $result .= sprintf ("%s(%s), %s %s(%s층), %s (%s/%s)\n", $deposit, $fee, $district, $apt, $floor, $size, $month, $day);
+        $result .= sprintf ("%s(%s), %s %s(%s층), %s (%s/%s)\n", 
+            $deposit, $fee, $district, $apt, $floor, $size, $month, $day);
 
         $len = length $result;
         if ($len > 3000) {
@@ -236,7 +229,7 @@ sub get_apartment_rent {
 
 sub help() {
     return "사용법: \
-    ex) /rent 11410 대흥201512";
+ex) /rent 11410 대흥201512";
 
 }
 
@@ -246,7 +239,8 @@ my $commands = {
     "say"      => sub { join " ", splice @_, 1 or "Usage: /say something" },
     # Example showing how to use the result of an API call.
     "whoami"   => sub {
-        sprintf "Hello %s, I am %s! How are you?", shift->{from}{username}, $me->{result}{username}
+        sprintf "Hello %s, I am %s! How are you?", 
+        shift->{from}{username}, $me->{result}{username}
     },
     "rent"    => sub {
         get_apartment_rent(@_);
