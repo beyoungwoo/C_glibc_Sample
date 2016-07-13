@@ -17,10 +17,10 @@ body {
 	<br>
 	<div style="text-align:center">
 		<h2>
-			Spring MVC Template Page<br> <br>
+			Spring MTemplate Samples<br> <br>
 		</h2>
 		<h5>
-		   * Crunchfy 예제 코드 구현 : 
+		   * Crunchfy HelloWorld예제 코드 구현 : 
 		<button onclick="location.href='welcome.html'">
             Hello World
         </button>
@@ -30,9 +30,9 @@ body {
             Resource Check
         </button>
         <br>
-		   * FortaCloud 서버 자원 확인 
-		<button onclick="location.href='resource_check.html'">
-            Resource Check
+		   * Twitter Spring Templete 예제 코드 구현 : 
+		<button onclick="location.href='http://208.69.31.107:8520'">
+            Twitter Test
         </button>
 		</h5>
 <!--
