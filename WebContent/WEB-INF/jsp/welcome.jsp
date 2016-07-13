@@ -4,8 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Spring MVC Tutorial by Crunchify - Hello World Spring MVC
-	Example</title>
+<title>Spring MVC Tutorial</title>
 <style type="text/css">
 body {
 	background-image: url('http://crunchify.com/bg.png');
@@ -16,6 +15,7 @@ body {
  
 	<br>
 	<br>
+<!--
 	<div style="font-family: verdana; padding: 10px; border-radius: 10px; font-size: 12px; text-align:center;">
  
 		Spring MCV Tutorial by <a href="http://crunchify.com">Crunchify</a>.
@@ -25,5 +25,6 @@ body {
 			href='http://crunchify.com/category/spring-mvc/' target='_blank'>here</a>
 		for all Spring MVC, Web Development examples.<br>
 	</div>
+-->
 </body>
 </html>
