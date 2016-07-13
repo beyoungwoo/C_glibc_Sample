@@ -4,23 +4,48 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Spring MVC Tutorial Series by Crunchify.com</title>
+<title>Spring Server Resource Check</title>
+
 <style type="text/css">
 body {
 	background-image: url('http://crunchify.com/bg.png');
 }
 </style>
+
 </head>
 <body>
 	<br>
 	<div style="text-align:center">
 		<h2>
-			Hey You..!! This is your 1st Spring MCV Tutorial..<br> <br>
+			Spring MVC Template Page<br> <br>
 		</h2>
-		<h3>
+		<h5>
+		   * Crunchfy 예제 코드 구현 : 
+		<button onclick="location.href='welcome.html'">
+            Hello World
+        </button>
+        <br>
+		   * FortaCloud 서버 자원 확인 
+		<button onclick="location.href='resource_check.html'">
+            Resource Check
+        </button>
+        <br>
+		   * FortaCloud 서버 자원 확인 
+		<button onclick="location.href='resource_check.html'">
+            Resource Check
+        </button>
+		</h5>
+<!--
 			<a href="welcome.html">Click here to See Welcome Message... </a>(to
 			check Spring MVC Controller... @RequestMapping("/welcome"))
-		</h3>
+
+			<a href="resource_check.html">Click here to See Resource Check... </a>(to
+			check Spring MVC Controller... @RequestMapping("/resource_check"))
+-->	
 	</div>
 </body>
+
+
+
+
 </html>
