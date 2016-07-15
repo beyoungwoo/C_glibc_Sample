@@ -60,43 +60,62 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
     <!-- Header -->
+<!--
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-text">
                         <span class="name">Samples</span>
+                        <span class="skills">Samples</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
+-->
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 portfolio-item">
-                  	<h4>
-                  	1.  helloworld 예제 코드 구현 : 
-		                <button onclick="location.href='welcome.html'">
-                        Hello World
-                        </button>
-                        <br><br>
-                  	2.  Chart 예제 코드 구현 : 
-		                <button onclick="location.href='resource_check.html'">
-                        Chart Test
-                        </button>
-                        <br><br>
-                  	3.  Twitter Spring 예제 탬플릿 : 
-		                <!--   <button onclick="location.href='http://208.69.31.107:8520'"> -->
-		                <button onclick="location.href='http://localhost:8520'">
-                        Twitter Template
-                        </button>
-                        <br><br>
-
+                    <br>
+                  	<h4> 1.  Cloud 자원 상태 확인 <br>
+                  	<h5>
+               	    <a href="http://208.69.31.107:8519"> - FortaCloud 상태</a> <br>
+                 	<a href="http://ec2-52-78-16-199.ap-northeast-2.compute.amazonaws.com:50000"> - AWS Cloud 상태</a>
+                  	</h5> 
+                  	</h4>
+					<h6> 개인 클라우드 서버의 자원 상태 모니터링 <br>
+						Github linux-dash 사용 <br><br><br>
+					</h6>
+					<h4>
+                 	2.  MYSQL 연동 예제 코드 구현 <br>
+                  	<h5> <a href="mysql_test.html"> - MYSQL 조회</a> <br> </h5> 
+					</h4>
+					<h6> mysql-connector jar 라이브러리 사용 <br><br><br>
+					</h6>
+					<h4>
+                  	3.  Twitter Spring 탬플릿 <br>
+                  	<h5> <a href="http://208.69.31.107:8520"> - Twitter 샘플 </a> </h5>
+					</h4>
+					<h6> Spring Framework 트위터 탬플릿 사용 <br>
+						Spring Guides 참고 <br><br><br>
+					</h6>
+					<h4>
+                 	4.  Chart 예제 <br>
+                  	<h5> <a href="resource_check.html"> - Chart Test</a> <br> </h5> 
+					<h6> Google Chart 참고 <br><br><br>
+					</h6>
+					</h4>
+					<h4>
+                	5.  Spring Framework helloworld 
+                  	<h5> <a href="welcome.html"> - Hello World</a> <br> </h5> 
+					<h6>
+						Spring MVC hello world 기본 템플릿 <br>
+                 	    crunchify 튜토리얼 참고 <br><br>
+					</h6>
                   	</h4>
                   	<!--
                     <a href="welcome.html" class="portfolio-link" data-toggle="modal">
@@ -119,14 +138,15 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3> </h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="http://facebook.com" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://github.com/beyoungwoo" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="https://plus.google.com" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="http://sfixer.tistory.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-text-width"></i></a>
                             </li>
+                            <!--
                             <li>
                                 <a href="https://twitter.com" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
@@ -136,6 +156,7 @@
                             <li>
                                 <a href="https://dribbble.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
                             </li>
+                            -->
                         </ul>
                     </div>
                 </div>
