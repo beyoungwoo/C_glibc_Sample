@@ -29,4 +29,12 @@ public class ControllerMain {
 		return new ModelAndView("resource_check", "message", message);
 	}
 
+	@RequestMapping("/mysql_test")
+	public ModelAndView mysqlTest() {
+ 
+		String message = "<br><div style='text-align:center;'>"
+				+ "<h3>mysql test message</h3></div><br><br>";
+		return new ModelAndView("mysql_test", "message", message);
+	}
+
 }
