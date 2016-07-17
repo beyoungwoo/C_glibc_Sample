@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Spring Samples</title>
+    <title>Exercise</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,16 +43,16 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+                    <!--
                     <li class="page-scroll">
                         <a href="#portfolio">Samples</a>
                     </li>
-                    <!--
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
                     -->
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="contact_email.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- Header -->
-<!--
+    <!--
     <header>
         <div class="container">
             <div class="row">
@@ -74,7 +74,7 @@
             </div>
         </div>
     </header>
--->
+	-->
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
@@ -140,12 +140,8 @@
                     <div class="footer-col col-md-4">
                         <h3> </h3>
                         <ul class="list-inline">
-                            <li>
-                                <a href="https://github.com/beyoungwoo" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://sfixer.tistory.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-text-width"></i></a>
-                            </li>
+                                Github<a href="https://github.com/beyoungwoo" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                                &emsp;&emsp;Tistory<a href="http://sfixer.tistory.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-text-width"></i></a>
                             <!--
                             <li>
                                 <a href="https://twitter.com" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
@@ -166,7 +162,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyleft @ Y1
+                        Copyleft @ 2016 Y1
                     </div>
                 </div>
             </div>
