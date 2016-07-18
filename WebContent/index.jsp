@@ -91,17 +91,17 @@
 						Github linux-dash 사용 <br><br><br>
 					</h6>
 					<h4>
-                 	2.  MYSQL 연동 예제 코드 구현 <br>
-                  	<h5> <a href="mysql_test.html"> - MYSQL 조회</a> <br> </h5> 
-					</h4>
-					<h6> mysql-connector jar 라이브러리 사용 <br><br><br>
-					</h6>
-					<h4>
-                  	3.  Twitter Spring 탬플릿 <br>
+                  	2.  Twitter Spring 탬플릿 <br>
                   	<h5> <a href="http://208.69.31.107:8520"> - Twitter 샘플 </a> </h5>
 					</h4>
 					<h6> Spring Framework 트위터 탬플릿 사용 <br>
 						Spring Guides 참고 <br><br><br>
+					</h6>
+					<h4>
+                 	3.  MYSQL 연동 예제 코드 구현 <br>
+                  	<h5> <a href="mysql_test.html"> - MYSQL 조회</a> <br> </h5> 
+					</h4>
+					<h6> mysql-connector jar 라이브러리 사용 <br><br><br>
 					</h6>
 					<h4>
                  	4.  Chart 예제 <br>
