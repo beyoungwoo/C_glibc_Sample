@@ -34,7 +34,7 @@ try {
 %>    
     <table>
     <tr>
-      <th width="100" align="center">고기명</th>
+      <th width="100" align="center">고객명</th>
       <th width="100" align="center">거래처</th>
       <th width="100" align="center">알람코드</th>
       <th width="100" align="center">제조사</th>
