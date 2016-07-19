@@ -18,8 +18,8 @@
 	<jsp:include page="top_menu.jsp" flush="false" />
 <%                                                                                  
 String DB_URL = "jdbc:mysql://127.0.0.1:3306/medi";
-String USERNAME = "userdb";
-String PASSWORD = "dPdnjs2";
+String USERNAME = "******";
+String PASSWORD = "******";
 
 Connection conn = null;
 Statement stmt = null;
