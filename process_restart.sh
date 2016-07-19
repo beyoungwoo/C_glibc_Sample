@@ -1,4 +1,8 @@
 #! /bin/bash
+#
+# * Reference
+# http://stackoverflow.com/questions/20162678/linux-script-to-check-if-process-is-running-act-on-the-result
+#
 
 case "$(pidof perl ./check_it_out.pl | wc -w)" in
 
