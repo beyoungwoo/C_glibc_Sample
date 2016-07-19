@@ -37,4 +37,9 @@ public class ControllerMain {
 		return new ModelAndView("mysql_test", "message", message);
 	}
 
+	@RequestMapping("/contact_email")
+	public ModelAndView contactEmail() {
+		return new ModelAndView("contact_email", "message", "mail");
+	}
+
 }
