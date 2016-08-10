@@ -1,9 +1,11 @@
-# real_estate_rent
+# Perl로 open api를 이용하여 구현
+
+## real_estate_rent.pl
 
 파이썬으로 구현된 소스 참고하여 따라함
 * https://github.com/dspshin/aptrent-bot
 
-기본 구성 참고 소스
+Telegram Bot 기본 구성 참고 소스
 * https://gist.github.com/Robertof/d9358b80d95850e2eb34
 
 부동산 전/월세 정보의 url, key 정보는 공공데이터 포털에서 아파트 전월세 자료 참고
