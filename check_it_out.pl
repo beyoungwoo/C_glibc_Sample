@@ -400,6 +400,7 @@ sub get_apartment_rent {
     my $result2 = "";
     my $len = 0;
 
+    my $is_sent = 0;
     #INIFO(scalar @fee_list);
     for (my $i=0; $i < scalar @fee_list; $i++) {
 
@@ -441,10 +442,11 @@ sub get_apartment_rent {
 			undef $result;
             $result1 = "";
             $result2 = "";
+            $is_sent++;
         }
     }
 
-    if ((length $result) == 0) {
+    if (((length $result) == 0) && ($is_sent == 0)) {
         return "[$ymd] not found";
     }
 	#printf "%s\n", $result;
