@@ -1,2 +1,0 @@
-# AlgorithmPractice
-Practice algorithms
