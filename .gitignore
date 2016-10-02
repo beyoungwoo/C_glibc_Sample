@@ -1,0 +1,18 @@
+###########
+# directory
+###########
+/build/
+/target/
+/WebContent/WEB-INF/lib
+
+###########
+# packages
+###########
+*.jar
+*.war
+
+###########
+# backup file 
+###########
+*.org
+*.bak
