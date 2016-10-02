@@ -1,0 +1,9 @@
+Create dynamic link file libLinuxDiskInfo.so
+
+```
+[LINUX]
+ gcc -I /usr/lib/jvm/java-8-openjdk-amd64/include -I /usr/lib/jvm/java-8-openjdk-amd64/include/linux/ tool_sysinfo_linux_disk_SyncDiskInfoJNI.c -shared -o libSyncDiskInfoJNI.so -m64 -fPIC 
+
+[my MAC]
+ gcc -I /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/include -I /Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home/include/darwin tool_sysinfo_linux_disk_SyncDiskInfoJNI.c -shared -o libSyncDiskInfoJNI.so -m64 -fPIC 
+```
