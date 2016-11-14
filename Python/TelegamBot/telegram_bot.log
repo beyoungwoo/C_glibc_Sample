@@ -1,0 +1,1418 @@
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 375
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 380
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 384
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 396
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'first_name': 'byungwoo', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 17, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 386
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 17, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 17, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 394
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 17, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 17, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 17, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'first_name': 'byungwoo', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 20, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 378
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 20, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 384
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+ERROR:root:name 'cht_id' is not defined
+Traceback (most recent call last):
+  File "./telegram_daily_check.py", line 20, in sendMessage
+    bot.sendMessage(cht_id, meg)
+NameError: name 'cht_id' is not defined
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 665
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 386
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 665
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 665
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 383
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 326
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 665
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot"278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4"/getMe HTTP/1.1" 404 55
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot"278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4"/getMe HTTP/1.1" 404 55
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot"278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4"/getMe HTTP/1.1" 404 55
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 409 96
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'first_name': 'byungwoo', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'first_name': 'byungwoo', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'first_name': 'byungwoo', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 665
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 665
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 317
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 665
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 388
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'first_name': 'byungwoo', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 318
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 666
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 318
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/sendMessage HTTP/1.1" 200 666
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'first_name': 'byungwoo', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'first_name': 'byungwoo', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'first_name': 'byungwoo', 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'username': 'my_daily_check_bot', 'id': 278531946, 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'id': 278531946, 'username': 'my_daily_check_bot', 'first_name': 'byungwoo'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'username': 'my_daily_check_bot', 'id': 278531946}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getMe HTTP/1.1" 200 93
+INFO:root:{'first_name': 'byungwoo', 'id': 278531946, 'username': 'my_daily_check_bot'}
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 389
+INFO:root:content type: text, chat type: private, chat id: 142733244
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Resetting dropped connection: api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates'): Retry(total=2, connect=None, read=None, redirect=0)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=0)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=50)",)': /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): api.telegram.org
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot278531946:AAHr75A8JlE_igSpYpsMpTA7CXzdNLYlXI4/getUpdates HTTP/1.1" 200 23
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=0)
