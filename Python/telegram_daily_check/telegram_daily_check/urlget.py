@@ -1,5 +1,4 @@
 """ Gathering information by openapi"""
-# -*- coding: utf-8 -*-
 
 import os
 import re
