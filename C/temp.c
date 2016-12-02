@@ -1,5 +1,4 @@
 #include <stdarg.h>
-
 int sum(int nargs, ...)
 {
     va_list argptr;
